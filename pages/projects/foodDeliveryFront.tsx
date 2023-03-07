@@ -64,7 +64,7 @@ const foodDeliveryFront = () => {
             </p>
           </div>
           <img
-            src="/static/screenshots/food-delivery/autoPlay.png"
+            src="/static/screenshots/food-delivery/autoplay.png"
             alt=""
             className="mb-8"
           />
