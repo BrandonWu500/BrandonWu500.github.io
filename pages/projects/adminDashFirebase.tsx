@@ -72,7 +72,7 @@ const adminDashFirebase = () => {
             having to manually reload the page.
           </p>
           <video
-            src="/static/screenshots/admin-firebase/realtime-data-480.mp4"
+            src="/static/clips/admin-firebase/realtime-data-480.mp4"
             loop
             muted
             autoPlay
@@ -165,7 +165,7 @@ const adminDashFirebase = () => {
           />
           <p>With Data in Collection:</p>
           <video
-            src="/static/screenshots/admin-firebase/realtime-data-load-480.mp4"
+            src="/static/clips/admin-firebase/realtime-data-load-480.mp4"
             loop
             muted
             autoPlay
@@ -173,7 +173,7 @@ const adminDashFirebase = () => {
           ></video>
           <p>No Data in Collection:</p>
           <video
-            src="/static/screenshots/admin-firebase/realtime-no-data-load-480.mp4"
+            src="/static/clips/admin-firebase/realtime-no-data-load-480.mp4"
             loop
             muted
             autoPlay

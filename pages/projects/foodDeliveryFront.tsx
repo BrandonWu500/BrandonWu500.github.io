@@ -119,7 +119,7 @@ const foodDeliveryFront = () => {
             alt=""
           />
           <video
-            src="/static/screenshots/food-delivery/flicker-animation.mp4"
+            src="/static/clips/food-delivery-frontend/flicker-animation.mp4"
             loop
             muted
             autoPlay
