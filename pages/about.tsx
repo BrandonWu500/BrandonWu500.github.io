@@ -34,7 +34,7 @@ const about = () => {
           developer.
         </p>
         <p>
-          Link to my Github:
+          <span>Link to my Github: </span>
           <a href="https://github.com/BrandonWu500" target="_blank">
             https://github.com/BrandonWu500
           </a>
