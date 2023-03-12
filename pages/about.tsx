@@ -25,8 +25,9 @@ const about = () => {
           Tailwind CSS, and Responsive Web Design.
         </p>
         <p>
-          Currently, I am trying to gain more experience with the MERN Stack by
-          building on my previous frontend projects.
+          Currently, I am trying to gain more experience with the MERN Stack and
+          MongoDB with Next.js (using the Mongoose library) by building on my
+          previous frontend projects.
         </p>
         <p className="font-semibold">
           I am also actively looking for a job as a front-end developer or React
