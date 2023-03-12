@@ -8,11 +8,8 @@ const contact = () => {
         </p>
         <p className="semi-bold text-xl mb-4">
           <strong>LinkedIn: </strong>
-          <a
-            href="https://www.linkedin.com/in/brandon-wu-17a992264/"
-            target="_blank"
-          >
-            https://www.linkedin.com/in/brandon-wu-17a992264/
+          <a href="https://www.linkedin.com/in/brandonwu500/" target="_blank">
+            https://www.linkedin.com/in/brandonwu500/
           </a>
         </p>
       </div>
