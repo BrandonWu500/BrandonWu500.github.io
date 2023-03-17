@@ -1,6 +1,6 @@
 import ProjectWrapper from '@/components/ProjectWrapper';
 
-const projects = () => {
+const Projects = () => {
   return (
     <ProjectWrapper>
       <h2 className="text-center font-bold text-xl mb-4">PROJECTS</h2>
@@ -71,4 +71,4 @@ const projects = () => {
     </ProjectWrapper>
   );
 };
-export default projects;
+export default Projects;

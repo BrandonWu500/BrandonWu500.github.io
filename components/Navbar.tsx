@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
 
 type NavbarProps = {
   darkMode: boolean | null;
@@ -39,8 +41,8 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
           className="hidden lg:flex items-center gap-4 cursor-pointer"
           onClick={handleDarkModeToggle}
         >
-          <i className="fa-solid fa-moon dark:text-gray-200 dark:hidden"></i>
-          <i className="fa-solid fa-sun dark:text-gray-200 hidden dark:block"></i>
+          <DarkModeIcon className="dark:text-gray-200 dark:hidden" />
+          <LightModeIcon className="dark:text-gray-200 hidden dark:block" />
           <span className="dark:text-gray-200 dark:hidden">DARK MODE</span>
           <span className="dark:text-gray-200 hidden dark:block">
             LIGHT MODE

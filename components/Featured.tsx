@@ -6,10 +6,17 @@ const Featured = () => {
   return (
     <ProjectWrapper>
       <div className="mx-auto text-center py-20">
-        <h2 className="text-5xl my-5">Latest Project</h2>
-        <p className="text-3xl">
+        <h2 className="text-5xl">Latest Project</h2>
+        <p className="text-3xl my-5">
           Food Delivery Full Stack App with Next.js and MongoDB
         </p>
+        <Image
+          src="/static/screenshots/food-delivery-fullstack/landing-page-screenshot.png"
+          alt=""
+          width={500}
+          height={500}
+          className="object-contain"
+        />
       </div>
       <section
         id="food-delivery-fullstack"
@@ -17,13 +24,22 @@ const Featured = () => {
       mx-auto flex flex-col gap-4 leading-8"
       >
         <div className="flex flex-col gap-1">
+          <h4 className="font-bold text-md">{`Try it yourself! (Deployment Link)`}</h4>
+          <Link
+            href="https://brandonwu500-food-delivery-app.vercel.app/"
+            target="_blank"
+          >
+            https://brandonwu500-food-delivery-app.vercel.app/
+          </Link>
+        </div>
+        <div className="flex flex-col gap-1">
           <h4 className="font-semibold text-md">Github Repo Link:</h4>
-          <a
+          <Link
             href="https://github.com/BrandonWu500/food-delivery-app"
             target="_blank"
           >
             https://github.com/BrandonWu500/food-delivery-app
-          </a>
+          </Link>
         </div>
         <h4 className="font-semibold text-md">Video Walkthrough:</h4>
         <iframe

@@ -1,7 +1,8 @@
 import ProjectWrapper from '@/components/ProjectWrapper';
 import Image from 'next/image';
+import Link from 'next/link';
 
-const foodDeliveryFullStack = () => {
+const FoodDeliveryFullStack = () => {
   return (
     <ProjectWrapper>
       <section
@@ -9,17 +10,33 @@ const foodDeliveryFullStack = () => {
         className="
       mx-auto flex flex-col gap-4 leading-8"
       >
-        <h3 className="font-bold text-lg">
+        <h3 className="font-bold text-xl mb-5">
           Food Delivery Fullstack App with Next.js and MongoDB
         </h3>
+        <Image
+          src="/static/screenshots/food-delivery-fullstack/landing-page-screenshot.png"
+          alt=""
+          width={500}
+          height={500}
+          className="object-contain"
+        />
+        <div className="flex flex-col gap-1">
+          <h4 className="font-bold text-md">{`Try it yourself! (Deployment Link)`}</h4>
+          <Link
+            href="https://brandonwu500-food-delivery-app.vercel.app/"
+            target="_blank"
+          >
+            https://brandonwu500-food-delivery-app.vercel.app/
+          </Link>
+        </div>
         <div className="flex flex-col gap-1">
           <h4 className="font-semibold text-md">Github Repo Link:</h4>
-          <a
+          <Link
             href="https://github.com/BrandonWu500/food-delivery-app"
             target="_blank"
           >
             https://github.com/BrandonWu500/food-delivery-app
-          </a>
+          </Link>
         </div>
         <p>Below is a video walkthrough of the app's functionality:</p>
         <iframe
@@ -400,4 +417,4 @@ const foodDeliveryFullStack = () => {
     </ProjectWrapper>
   );
 };
-export default foodDeliveryFullStack;
+export default FoodDeliveryFullStack;
