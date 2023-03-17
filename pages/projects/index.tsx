@@ -7,7 +7,7 @@ const projects = () => {
       <ol className="h-screen space-y-8 list-decimal">
         <li>
           <a href="/projects/mernShop" className="font-semibold text-lg">
-            MERN Shopping App
+            MERN Stack Shopping App
           </a>
         </li>
         <li>
@@ -28,7 +28,7 @@ const projects = () => {
                 href="/projects/adminDashFirebase"
                 className="font-semibold text-lg"
               >
-                Frontend with Firebase
+                Fullstack with Firebase
               </a>
             </li>
           </ol>
@@ -38,8 +38,26 @@ const projects = () => {
             href="/projects/foodDeliveryFront"
             className="font-semibold text-lg"
           >
-            Food Delivery Frontend with Next.js
+            Food Delivery App with Next.js
           </a>
+          <ol className="list-disc pl-5 space-y-4 mt-2">
+            <li>
+              <a
+                href="/projects/foodDeliveryFront"
+                className="font-semibold text-lg"
+              >
+                Frontend only
+              </a>
+            </li>
+            <li>
+              <a
+                href="/projects/foodDeliveryFullStack"
+                className="font-semibold text-lg"
+              >
+                Fullstack with MongoDB
+              </a>
+            </li>
+          </ol>
         </li>
         <li>
           <a

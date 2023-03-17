@@ -4,7 +4,7 @@ const foodDeliveryFront = () => {
   return (
     <ProjectWrapper>
       <section
-        id="food-delivery"
+        id="food-delivery-frontend"
         className="mx-auto flex flex-col gap-4 leading-8"
       >
         <h3 className="font-bold text-lg">
@@ -13,10 +13,10 @@ const foodDeliveryFront = () => {
         <div className="flex flex-col gap-1">
           <h4 className="font-semibold text-md">Github Repo Link:</h4>
           <a
-            href="https://github.com/BrandonWu500/food-delivery-app"
+            href="https://github.com/BrandonWu500/food-delivery-app/tree/frontend-only"
             target="_blank"
           >
-            https://github.com/BrandonWu500/food-delivery-app
+            https://github.com/BrandonWu500/food-delivery-app/tree/frontend-only
           </a>
         </div>
 
@@ -30,7 +30,7 @@ const foodDeliveryFront = () => {
           className="w-full"
         ></iframe>
 
-        {/* <!-- food delivery app case study --> */}
+        {/* <!-- food delivery frontend case study --> */}
         <div className="font-arial flex flex-col gap-4">
           <h4 className="font-semibold mt-8 text-lg">Case Study:</h4>
           <div>
