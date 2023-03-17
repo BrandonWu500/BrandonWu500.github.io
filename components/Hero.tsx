@@ -15,15 +15,15 @@ const Hero = () => {
         </h1>
         <div
           id="text"
-          className="text-2xl md:text-4xl xl:text-5xl font-semibold flex flex-col flex-wrap gap-3 mt-5"
+          className="text-2xl md:text-4xl xl:text-5xl font-semibold flex flex-col flex-wrap gap-2 mt-5"
         >
           <span className="text-blue-700 dark:text-blue-400">
             <Typewriter
               options={{
                 strings: [
+                  'Frontend Web',
                   'React',
                   'Next.js',
-                  'Frontend Web',
                   'UI/UX',
                   'MERN Stack',
                 ],

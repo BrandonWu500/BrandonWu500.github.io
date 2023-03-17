@@ -401,9 +401,11 @@ const Featured = () => {
           </p>
         </div>
       </section>
-      <button className="capitalize bg-slate-800 text-white p-5 mt-10 block mx-auto rounded hover:scale-95">
-        <Link href="/projects">Learn about my other projects</Link>
-      </button>
+      <Link href="/projects">
+        <button className="capitalize bg-slate-800 text-white p-5 mt-10 block mx-auto rounded hover:scale-95">
+          Learn about my other projects
+        </button>
+      </Link>
     </ProjectWrapper>
   );
 };
