@@ -1,17 +1,21 @@
-import ProjectWrapper from '@/components/ProjectWrapper';
 import Image from 'next/image';
+import Link from 'next/link';
+import ProjectWrapper from './ProjectWrapper';
 
-const foodDeliveryFullStack = () => {
+const Featured = () => {
   return (
     <ProjectWrapper>
+      <div className="mx-auto text-center py-20">
+        <h2 className="text-5xl my-5">Latest Project</h2>
+        <p className="text-3xl">
+          Food Delivery Full Stack App with Next.js and MongoDB
+        </p>
+      </div>
       <section
         id="food-delivery-fullstack"
         className="
       mx-auto flex flex-col gap-4 leading-8"
       >
-        <h3 className="font-bold text-lg">
-          Food Delivery Fullstack App with Next.js and MongoDB
-        </h3>
         <div className="flex flex-col gap-1">
           <h4 className="font-semibold text-md">Github Repo Link:</h4>
           <a
@@ -21,7 +25,7 @@ const foodDeliveryFullStack = () => {
             https://github.com/BrandonWu500/food-delivery-app
           </a>
         </div>
-        <p>Below is a video walkthrough of the app's functionality:</p>
+        <h4 className="font-semibold text-md">Video Walkthrough:</h4>
         <iframe
           height="315"
           src="https://www.youtube.com/embed/Gt2OOgQCIYQ"
@@ -397,7 +401,10 @@ const foodDeliveryFullStack = () => {
           </p>
         </div>
       </section>
+      <button className="capitalize bg-slate-800 text-white p-5 mt-10 block mx-auto rounded hover:scale-95">
+        <Link href="/projects">Learn about my other projects</Link>
+      </button>
     </ProjectWrapper>
   );
 };
-export default foodDeliveryFullStack;
+export default Featured;
