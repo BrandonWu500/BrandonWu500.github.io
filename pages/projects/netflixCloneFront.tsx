@@ -1,6 +1,7 @@
 import ProjectWrapper from '@/components/ProjectWrapper';
+import Image from 'next/image';
 
-const netflixCloneFront = () => {
+const NetflixCloneFront = () => {
   return (
     <ProjectWrapper>
       <section
@@ -10,6 +11,13 @@ const netflixCloneFront = () => {
         <h3 className="font-bold text-lg">
           Netflix Clone Frontend with Next.js
         </h3>
+        <Image
+          src="/static/screenshots/netflix-clone-front/landing-page.png"
+          alt=""
+          width={500}
+          height={500}
+          className="object-contain mb-5"
+        />
         <div className="flex flex-col gap-1">
           <h4 className="font-semibold text-md">Github Repo Link:</h4>
           <a
@@ -20,7 +28,7 @@ const netflixCloneFront = () => {
           </a>
         </div>
 
-        <p>Below is a video walkthrough of the app's functionality:</p>
+        <h4 className="font-semibold text-md">Video Walkthrough:</h4>
         <iframe
           height="315"
           src="https://www.youtube.com/embed/Opl0oe4AxpA"
@@ -29,6 +37,26 @@ const netflixCloneFront = () => {
           allowFullScreen
           className="w-full"
         ></iframe>
+
+        <div className="flex flex-col gap-1 mt-5">
+          <h4 className="font-bold text-md">{`Try it yourself! (Deployment Link)`}</h4>
+          <div className="my-2">
+            <p>Disclaimers:</p>
+            <ul className="list-decimal pl-5">
+              <li>Currently, the design is not responsive</li>
+              <li>
+                Since it's just a frontend, you can enter any email and password
+                to login and view the home page
+              </li>
+            </ul>
+          </div>
+          <a
+            href="https://brandonwu500-netflix-clone-frontend.vercel.app/"
+            target="_blank"
+          >
+            https://brandonwu500-netflix-clone-frontend.vercel.app/
+          </a>
+        </div>
 
         {/* <!-- netflix clone frontend case study --> */}
         <div className="font-arial flex flex-col gap-4">
@@ -286,4 +314,4 @@ const netflixCloneFront = () => {
     </ProjectWrapper>
   );
 };
-export default netflixCloneFront;
+export default NetflixCloneFront;
