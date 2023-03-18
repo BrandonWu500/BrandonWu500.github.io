@@ -10,7 +10,7 @@ const FoodDeliveryFullStack = () => {
         className="
       mx-auto flex flex-col gap-4 leading-8"
       >
-        <h3 className="font-bold text-xl mb-5">
+        <h3 className="font-bold text-xl mb-2">
           Food Delivery Fullstack App with Next.js and MongoDB
         </h3>
         <Image
@@ -18,17 +18,8 @@ const FoodDeliveryFullStack = () => {
           alt=""
           width={500}
           height={500}
-          className="object-contain"
+          className="object-contain mb-5"
         />
-        <div className="flex flex-col gap-1">
-          <h4 className="font-bold text-md">{`Try it yourself! (Deployment Link)`}</h4>
-          <Link
-            href="https://brandonwu500-food-delivery-app.vercel.app/"
-            target="_blank"
-          >
-            https://brandonwu500-food-delivery-app.vercel.app/
-          </Link>
-        </div>
         <div className="flex flex-col gap-1">
           <h4 className="font-semibold text-md">Github Repo Link:</h4>
           <Link
@@ -47,7 +38,15 @@ const FoodDeliveryFullStack = () => {
           allowFullScreen
           className="w-full"
         ></iframe>
-
+        <div className="flex flex-col gap-1 mt-5">
+          <h4 className="font-bold text-md">{`Try it yourself! (Deployment Link)`}</h4>
+          <Link
+            href="https://brandonwu500-food-delivery-app.vercel.app/"
+            target="_blank"
+          >
+            https://brandonwu500-food-delivery-app.vercel.app/
+          </Link>
+        </div>
         {/* food delivery fullstack case study */}
         <div className="font-arial flex flex-col gap-4">
           <h4 className="font-semibold mt-8 text-lg">Case Study:</h4>

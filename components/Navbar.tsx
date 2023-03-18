@@ -38,11 +38,15 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
         </ul>
         <button
           id="moon"
-          className="hidden lg:flex items-center gap-4 cursor-pointer"
+          className="hidden lg:flex items-baseline gap-4 cursor-pointer"
           onClick={handleDarkModeToggle}
         >
-          <DarkModeIcon className="dark:text-gray-200 dark:hidden" />
-          <LightModeIcon className="dark:text-gray-200 hidden dark:block" />
+          <div className="dark:text-gray-200 dark:hidden text-2xl">
+            <DarkModeIcon fontSize="inherit" />
+          </div>
+          <div className="dark:text-gray-200 hidden dark:block text-2xl">
+            <LightModeIcon fontSize="inherit" />
+          </div>
           <span className="dark:text-gray-200 dark:hidden">DARK MODE</span>
           <span className="dark:text-gray-200 hidden dark:block">
             LIGHT MODE

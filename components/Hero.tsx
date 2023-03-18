@@ -58,14 +58,18 @@ const Hero = ({ setBtnScrollDown }: HeroProps) => {
       </div>
       {isScrolled ? (
         <button className="absolute bottom-5">
-          <KeyboardArrowDownIcon className="text-6xl" />
+          <div className="text-6xl">
+            <KeyboardArrowDownIcon fontSize="inherit" />
+          </div>
         </button>
       ) : (
         <button
           className="absolute bottom-5 motion-safe:animate-bounce"
           onClick={() => setBtnScrollDown(true)}
         >
-          <KeyboardArrowDownIcon className="text-6xl" />
+          <div className="text-6xl">
+            <KeyboardArrowDownIcon fontSize="inherit" />
+          </div>
         </button>
       )}
     </section>
