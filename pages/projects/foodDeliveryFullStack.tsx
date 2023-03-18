@@ -22,12 +22,12 @@ const FoodDeliveryFullStack = () => {
         />
         <div className="flex flex-col gap-1">
           <h4 className="font-semibold text-md">Github Repo Link:</h4>
-          <Link
+          <a
             href="https://github.com/BrandonWu500/food-delivery-app"
             target="_blank"
           >
             https://github.com/BrandonWu500/food-delivery-app
-          </Link>
+          </a>
         </div>
         <p>Below is a video walkthrough of the app's functionality:</p>
         <iframe
@@ -40,12 +40,12 @@ const FoodDeliveryFullStack = () => {
         ></iframe>
         <div className="flex flex-col gap-1 mt-5">
           <h4 className="font-bold text-md">{`Try it yourself! (Deployment Link)`}</h4>
-          <Link
+          <a
             href="https://brandonwu500-food-delivery-app.vercel.app/"
             target="_blank"
           >
             https://brandonwu500-food-delivery-app.vercel.app/
-          </Link>
+          </a>
         </div>
         {/* food delivery fullstack case study */}
         <div className="font-arial flex flex-col gap-4">

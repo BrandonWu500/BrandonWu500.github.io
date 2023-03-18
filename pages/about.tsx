@@ -6,12 +6,12 @@ const about = () => {
           About Me
         </h2>
         <p>
-          I recently graduated from the University of Michigan with a Bachelor
+          {`I recently graduated from the University of Michigan with a Bachelor
           of Science Degree in Computer Science. I have been interested in web
-          development for over a year now, specifically the front-end. I have
-          been learning through a combination of college courses and
-          self-learning by reading guides and documentation, along with watching
-          YouTube tutorials.
+          development for over a year now, specifically the frontend. I have
+          been learning through a combination of college courses (mainly geared
+          towards web development and UI/UX) and self-learning by reading guides
+          and documentation, along with watching YouTube tutorials.`}
         </p>
         <p>
           I am comfortable with HTML, CSS, and JavaScript. I also have
