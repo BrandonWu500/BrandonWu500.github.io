@@ -14,6 +14,12 @@ const about = () => {
           and documentation, along with watching YouTube tutorials.`}
         </p>
         <p>
+          Right now, I am actively looking for a job as a Frontend Web/UI
+          Developer with a focus on React and CSS. I can work 100% remote or
+          relocate, anywhere in the US, to the on-site location.
+        </p>
+        <p>Here is a little bit more about me:</p>
+        <p>
           I am comfortable with HTML, CSS, and JavaScript. I also have
           experience with React.js and many of its associated libraries
           including React Redux, React Router, and Redux Toolkit. Recently, I
@@ -28,10 +34,6 @@ const about = () => {
           {`Currently, I am trying to gain more experience with the MERN Stack and
           MongoDB with Next.js (using the Mongoose library) by building on my
           previous frontend projects.`}
-        </p>
-        <p className="font-semibold">
-          I am also actively looking for a job as a Frontend Web, React, or UI
-          Developer.
         </p>
         <p>
           <span>Link to my Github: </span>
