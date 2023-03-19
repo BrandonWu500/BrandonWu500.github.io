@@ -1,10 +1,18 @@
 import ProjectWrapper from '@/components/ProjectWrapper';
+import Image from 'next/image';
 
-const mernShop = () => {
+const MernShop = () => {
   return (
     <ProjectWrapper>
       <section className="mx-auto flex flex-col gap-4 leading-8" id="mern-shop">
         <h3 className="font-bold text-lg">MERN Shopping App</h3>
+        <Image
+          src="/static/screenshots/mern-shop/landing-page.png"
+          alt=""
+          width={500}
+          height={500}
+          className="object-contain mb-5"
+        />
         <div className="flex flex-col gap-1">
           <h4 className="font-semibold text-md">Github Repo Link:</h4>
           <a
@@ -24,6 +32,16 @@ const mernShop = () => {
           allowFullScreen
           className="w-full"
         ></iframe>
+
+        <div className="flex flex-col gap-1 mt-5">
+          <h4 className="font-bold text-md">{`Try it yourself! (Deployment Link)`}</h4>
+          <a
+            href="https://brandonwu500-mern-shop.onrender.com/"
+            target="_blank"
+          >
+            https://brandonwu500-mern-shop.onrender.com/
+          </a>
+        </div>
 
         {/* <!-- mern shop case study --> */}
         <div className="flex flex-col gap-4 font-arial">
@@ -183,4 +201,4 @@ const mernShop = () => {
     </ProjectWrapper>
   );
 };
-export default mernShop;
+export default MernShop;
