@@ -3,8 +3,8 @@ import ProjectWrapper from '@/components/ProjectWrapper';
 const Projects = () => {
   return (
     <ProjectWrapper>
-      <h2 className="text-center font-bold text-xl mb-4">PROJECTS</h2>
-      <ol className="h-screen space-y-8 list-decimal">
+      <h2 className="text-center font-bold text-xl mb-8">PROJECTS</h2>
+      <ol className="h-screen space-y-8 list-decimal pl-10">
         <li>
           <a href="/projects/mernShop" className="font-semibold text-lg">
             MERN Stack Shopping App
