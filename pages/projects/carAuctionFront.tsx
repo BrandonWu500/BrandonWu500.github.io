@@ -1,26 +1,24 @@
+import ProjectWrapper from '@/components/ProjectWrapper';
 import Image from 'next/image';
-import Link from 'next/link';
-import ProjectWrapper from './ProjectWrapper';
 
-const Featured = () => {
+const CarAuctionFront = () => {
   return (
     <ProjectWrapper>
-      <div className="mx-auto text-center pb-10">
-        <h2 className="text-5xl">Latest Project</h2>
-        <p className="text-3xl my-5">Car Auction Frontend with Three.js</p>
-        <Image
-          src="/static/screenshots/car-auction/landing-page.png"
-          alt=""
-          width={500}
-          height={500}
-          className="object-contain"
-        />
-      </div>
       <section
         id="food-delivery-fullstack"
         className="
       mx-auto flex flex-col gap-4 leading-8"
       >
+        <h3 className="font-bold text-xl mb-2">
+          Car Auction Frontend with Three.js
+        </h3>
+        <Image
+          src="/static/screenshots/car-auction/landing-page.png"
+          alt=""
+          width={500}
+          height={500}
+          className="object-contain mb-5"
+        />
         <div className="flex flex-col gap-1">
           <h4 className="font-semibold text-md">Github Repo Link:</h4>
           <a href="https://github.com/BrandonWu500/car-auction" target="_blank">
@@ -80,12 +78,7 @@ const Featured = () => {
           </ul>
         </div>
       </section>
-      <Link href="/projects">
-        <button className="capitalize bg-slate-800 text-white p-5 mt-10 block mx-auto rounded hover:bg-slate-700">
-          Learn about my other projects
-        </button>
-      </Link>
     </ProjectWrapper>
   );
 };
-export default Featured;
+export default CarAuctionFront;
