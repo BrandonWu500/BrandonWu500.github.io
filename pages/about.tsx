@@ -5,6 +5,24 @@ const about = () => {
         <h2 className="text-center uppercase font-bold text-xl font-nunito">
           About Me
         </h2>
+        <p>Hi, I'm Brandon!</p>
+        <p>
+          Right now, I am actively looking for a job as a Frontend Web/UI
+          Developer with a focus on React and CSS. I can work 100% remote or
+          relocate, anywhere in the US, to the on-site location.
+        </p>
+        <p>
+          {`My ideal job would be converting UI designs (like Figma) into frontends (for websites) using React and CSS. I would also be okay with converting web designs into full stack websites using the MERN Stack or Next.js with MongoDB.`}
+        </p>
+        <div>
+          <p>Some of my past projects include:</p>
+          <ul className="list-disc pl-5">
+            <li>{`Full Stack (MERN) Shopping/E-Commerce Website`}</li>
+            <li>{`Full Stack (Next.js with MongoDB) Food Delivery Website`}</li>
+            <li>Frontend of Car Auction Website with React and Three.js</li>
+          </ul>
+        </div>
+        <p>Here is a little bit more about my background:</p>
         <p>
           {`I recently graduated from the University of Michigan with a Bachelor
           of Science Degree in Computer Science. I have been interested in web
@@ -14,12 +32,6 @@ const about = () => {
           and documentation, along with watching YouTube tutorials.`}
         </p>
         <p>
-          Right now, I am actively looking for a job as a Frontend Web/UI
-          Developer with a focus on React and CSS. I can work 100% remote or
-          relocate, anywhere in the US, to the on-site location.
-        </p>
-        <p>Here is a little bit more about me:</p>
-        <p>
           I am comfortable with HTML, CSS, and JavaScript. I also have
           experience with React.js and many of its associated libraries
           including React Redux, React Router, and Redux Toolkit. Recently, I
@@ -28,7 +40,7 @@ const about = () => {
         </p>
         <p>
           Finally, I also have experience with styled-components, Material UI,
-          Tailwind CSS, and Responsive Web Design.
+          Tailwind CSS, Bootstrap, and Responsive Web Design.
         </p>
         <p>
           {`Currently, I am trying to gain more experience with the MERN Stack and
@@ -36,7 +48,7 @@ const about = () => {
           previous frontend projects.`}
         </p>
         <p>
-          <span>Link to my Github: </span>
+          <span>Link to my GitHub: </span>
           <a href="https://github.com/BrandonWu500" target="_blank">
             https://github.com/BrandonWu500
           </a>
