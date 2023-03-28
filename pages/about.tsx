@@ -20,6 +20,8 @@ const about = () => {
             <li>{`Full Stack (MERN) Shopping/E-Commerce Website`}</li>
             <li>{`Full Stack (Next.js with MongoDB) Food Delivery Website`}</li>
             <li>Frontend of Car Auction Website with React and Three.js</li>
+            <li>Frontend of Netflix Clone with Next.js</li>
+            <li>{`Full Stack (React and Google Firebase) Admin Dashboard`}</li>
           </ul>
         </div>
         <p>Here is a little bit more about my background:</p>
