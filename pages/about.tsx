@@ -1,11 +1,11 @@
 const about = () => {
   return (
-    <section id="about" className="px-10 dark:bg-slate-900 dark:text-gray-300 ">
+    <section id="about" className="px-10 dark:bg-slate-900 dark:text-gray-300">
       <div className="container mx-auto pt-40 pb-40 h-full flex flex-col gap-4 max-w-xl leading-8 font-arial">
         <h2 className="text-center uppercase font-bold text-xl font-nunito">
           About Me
         </h2>
-        <p>Hi, I'm Brandon!</p>
+        <p>{`Hi, I'm Brandon!`}</p>
         <p>
           Right now, I am actively looking for a job as a Frontend Web/UI
           Developer with a focus on React and CSS. I can work 100% remote or
@@ -36,9 +36,10 @@ const about = () => {
         <p>
           I am comfortable with HTML, CSS, and JavaScript. I also have
           experience with React.js and many of its associated libraries
-          including React Redux, React Router, and Redux Toolkit. Recently, I
-          have been having fun building projects with Next.js, TypeScript, and
-          Sass, so I have experience with those as well.
+          including React Router and Redux Toolkit. Recently, I have been having
+          fun building projects with Next.js, TypeScript, and Sass, so I have
+          experience with those as well. I also have experience with building
+          and using REST APIs, as well as using Postman to test them.
         </p>
         <p>
           Finally, I also have experience with styled-components, Material UI,

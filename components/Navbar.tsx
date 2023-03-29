@@ -35,6 +35,9 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
           <li className="hover:text-gray-400">
             <Link href="/contact">contact</Link>
           </li>
+          <li className="hover:text-gray-400">
+            <Link href="/testimonials">testimonials</Link>
+          </li>
         </ul>
         <button
           id="moon"
@@ -103,6 +106,15 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
               onClick={() => setNavMenuOpen(false)}
             >
               contact
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="hLink"
+              href="/testimonials"
+              onClick={() => setNavMenuOpen(false)}
+            >
+              testimonials
             </Link>
           </li>
         </ul>
