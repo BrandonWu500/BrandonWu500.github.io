@@ -8,14 +8,14 @@ const Testimonials = () => {
         <strong>
           {`Here's what past clients I have worked with have to say:`}
         </strong>
-        <p>
+        <p className="italic">
           {`"I recently had the pleasure of working with Brandon on a project to
           update the front end of our website, and I cannot recommend him highly
           enough. Brandon did an exceptional job, delivering quality work with a
           high level of professionalism and great communication throughout the
           project.`}
         </p>
-        <p>
+        <p className="italic">
           {` From start to finish, Brandon was a joy to work with. He took the time
           to understand our needs and goals and provided valuable suggestions
           and insights on how to improve the website's design and functionality.
@@ -23,21 +23,21 @@ const Testimonials = () => {
           and can-do approach made the entire process much smoother and more
           enjoyable.`}
         </p>
-        <p>
+        <p className="italic">
           {`Brandon's technical skills were top-notch, and he did an excellent job
           updating the front end of the website. The new design is modern,
           user-friendly, and has received positive feedback from our customers.
           Brandon worked efficiently and effectively, and he kept us updated on
           his progress at every stage of the project.`}
         </p>
-        <p>
+        <p className="italic">
           {`Beyond the technical work, Brandon was also very personable and easy
           to work with. He was always polite, patient, and willing to answer any
           questions we had. He went above and beyond to ensure that we were
           happy with the final product and that our website was ready to launch
           on time.`}
         </p>
-        <p>
+        <p className="italic">
           {`In summary, I would give Brandon a five-star rating without
           hesitation. His technical skills, communication, and customer service
           were all outstanding, and he was a pleasure to work with from start to
