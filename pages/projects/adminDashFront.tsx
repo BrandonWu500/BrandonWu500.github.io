@@ -1,4 +1,5 @@
 import ProjectWrapper from '@/components/ProjectWrapper';
+import Link from 'next/link';
 
 const adminDashFront = () => {
   return (
@@ -238,6 +239,11 @@ const adminDashFront = () => {
           </p>
         </div>
       </section>
+      <Link href="/projects/adminDashFirebase">
+        <button className="capitalize bg-slate-800 text-white p-5 mt-10 block mx-auto rounded hover:bg-slate-700">
+          Learn about how I turned this into a full stack app
+        </button>
+      </Link>
     </ProjectWrapper>
   );
 };

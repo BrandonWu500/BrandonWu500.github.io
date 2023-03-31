@@ -1,4 +1,5 @@
 import ProjectWrapper from '@/components/ProjectWrapper';
+import Link from 'next/link';
 
 const foodDeliveryFront = () => {
   return (
@@ -245,6 +246,11 @@ const foodDeliveryFront = () => {
           </div>
         </div>
       </section>
+      <Link href="/projects/foodDeliveryFullStack">
+        <button className="capitalize bg-slate-800 text-white p-5 mt-10 block mx-auto rounded hover:bg-slate-700">
+          Learn about how I turned this into a full stack app
+        </button>
+      </Link>
     </ProjectWrapper>
   );
 };
