@@ -7,7 +7,7 @@ const Projects = () => {
     <ProjectWrapper>
       <div className="mb-12">
         <h2 className="text-center font-bold text-xl mb-4">PROJECTS</h2>
-        <p className="text-center">
+        <p className="text-center text-lg">
           Click on a project to learn more about it.
         </p>
       </div>
@@ -15,7 +15,7 @@ const Projects = () => {
         <li>
           <div className="font-semibold text-lg grid grid-cols-2 items-center gap-5">
             <div>
-              <Link href="/projects/mernShop">
+              <Link href="/projects/mernShop" className="font-bold">
                 <p>MERN Stack</p> <p>Shopping App</p>
               </Link>
             </div>
@@ -31,25 +31,19 @@ const Projects = () => {
           </div>
         </li>
         <li>
-          <div className="font-semibold text-lg grid grid-cols-2 items-center gap-5">
+          <div className="font-medium text-lg grid grid-cols-2 items-center gap-5">
             <div className="-translate-y-2">
-              <Link href="/projects/adminDashFront">
+              <Link href="/projects/adminDashFront" className="font-bold">
                 <p className="mb-4">Admin Dashboard</p>
               </Link>
               <ol className="list-decimal pl-5 space-y-4 mt-2 text-start">
                 <li>
-                  <Link
-                    href="/projects/adminDashFront"
-                    className="font-semibold text-lg"
-                  >
+                  <Link href="/projects/adminDashFront" className="text-lg">
                     Frontend only
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="/projects/adminDashFirebase"
-                    className="font-semibold text-lg"
-                  >
+                  <Link href="/projects/adminDashFirebase" className="text-lg">
                     Fullstack with Firebase
                   </Link>
                 </li>
@@ -67,24 +61,21 @@ const Projects = () => {
           </div>
         </li>
         <li>
-          <div className="font-semibold text-lg grid grid-cols-2 items-center gap-5">
+          <div className="font-medium text-lg grid grid-cols-2 items-center gap-5">
             <div className="-translate-y-2">
-              <Link href="/projects/foodDeliveryFront">
+              <Link href="/projects/foodDeliveryFront" className="font-bold">
                 <p>Food Delivery App</p> <p>with Next.js</p>
               </Link>
               <ol className="list-decimal pl-5 space-y-4 mt-2 text-start">
                 <li>
-                  <Link
-                    href="/projects/foodDeliveryFront"
-                    className="font-semibold text-lg"
-                  >
+                  <Link href="/projects/foodDeliveryFront" className=" text-lg">
                     Frontend only
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/projects/foodDeliveryFullStack"
-                    className="font-semibold text-lg"
+                    className=" text-lg"
                   >
                     Fullstack with MongoDB
                   </Link>
@@ -104,7 +95,7 @@ const Projects = () => {
         </li>
         <li>
           <div className="font-semibold text-lg grid grid-cols-2 items-center gap-5">
-            <Link href="/projects/netflixCloneFront">
+            <Link href="/projects/netflixCloneFront" className="font-bold">
               <div>
                 <p>Netflix Clone Frontend</p> <p>with Next.js</p>
               </div>
@@ -122,7 +113,7 @@ const Projects = () => {
         </li>
         <li>
           <div className="font-semibold text-lg grid grid-cols-2 items-center gap-5">
-            <Link href="/projects/carAuctionFront">
+            <Link href="/projects/carAuctionFront" className="font-bold">
               <div>
                 <p>Car Auction Frontend</p> <p>with Three.js</p>
               </div>

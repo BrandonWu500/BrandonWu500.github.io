@@ -11,7 +11,7 @@ const ProjectWrapper = ({ children }: ChildrenType) => {
         {pathname !== '/' && (
           <button
             onClick={router.back}
-            className="capitalize bg-slate-800 text-white p-5 mt-10 mx-auto rounded hover:bg-slate-700 fixed top-8 lg:top-24 left-8 lg:left-72 z-10"
+            className="capitalize bg-slate-800 text-white p-5 mt-10 mx-auto rounded hover:bg-slate-700 fixed top-8 lg:top-24 left-8 lg:left-48 xl:left-1/4 z-10 lg:-translate-x-10"
           >
             <ArrowBackIcon />
           </button>
