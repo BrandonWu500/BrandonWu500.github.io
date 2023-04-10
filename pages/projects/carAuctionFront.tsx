@@ -46,14 +46,14 @@ const CarAuctionFront = () => {
         </div>
 
         <p className="font-semibold mt-5">Screenshots:</p>
-        <ul className="grid grid-cols-2 gap-5">
+        <ul className="grid grid-cols-1 gap-5">
           {SCREENSHOTS.map((screenshot, idx) => (
             <li key={idx}>
               <Image
                 src={screenshot}
                 alt=""
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 className="object-contain mx-auto"
               />
             </li>
