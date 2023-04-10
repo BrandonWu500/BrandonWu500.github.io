@@ -1,4 +1,5 @@
 import ProjectWrapper from "@/components/ProjectWrapper";
+import { SCREENSHOTS } from "@/data/carAuctionFront";
 import Image from "next/image";
 
 const CarAuctionFront = () => {
@@ -35,7 +36,7 @@ const CarAuctionFront = () => {
           className="w-full"
         ></iframe>
         <div className="flex flex-col gap-1 mt-5">
-          <h4 className="font-bold text-md">{`Try it yourself! (Deployment Link)`}</h4>
+          <h4 className="font-semibold text-md">{`Try it yourself! (Deployment Link)`}</h4>
           <a
             href="https://brandonwu500-car-auction.vercel.app/"
             target="_blank"
@@ -43,6 +44,22 @@ const CarAuctionFront = () => {
             https://brandonwu500-car-auction.vercel.app/
           </a>
         </div>
+
+        <p className="font-semibold mt-5">Screenshots:</p>
+        <ul className="grid grid-cols-2 gap-5">
+          {SCREENSHOTS.map((screenshot, idx) => (
+            <li key={idx}>
+              <Image
+                src={screenshot}
+                alt=""
+                width={300}
+                height={300}
+                className="object-contain mx-auto"
+              />
+            </li>
+          ))}
+        </ul>
+
         {/* brief project overview */}
         <div>
           <h4 className="font-semibold mt-8 text-lg">
