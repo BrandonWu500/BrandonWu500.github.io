@@ -1,6 +1,6 @@
-import ProjectWrapper from '@/components/ProjectWrapper';
-import Image from 'next/image';
-import Link from 'next/link';
+import ProjectWrapper from "@/components/ProjectWrapper";
+import Image from "next/image";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -11,7 +11,7 @@ const Projects = () => {
           Click on a project to learn more about it.
         </p>
       </div>
-      <ul className="h-screen space-y-12 text-center">
+      <ul className="min-h-screen space-y-12 text-center">
         <li>
           <div className="font-semibold text-lg grid grid-cols-2 items-center gap-5">
             <div>
@@ -125,6 +125,26 @@ const Projects = () => {
                 width={500}
                 height={500}
                 className="object-contain mb-5"
+              />
+            </Link>
+          </div>
+        </li>
+        <li>
+          <div className="font-semibold text-lg grid grid-cols-2 items-center gap-5">
+            <Link href="/projects/motoEcomFront" className="font-bold">
+              <div>
+                <p>Motorcycle E-Commerce</p>
+                <p>Mobile Frontend</p>
+                <p>with React Native</p>
+              </div>
+            </Link>
+            <Link href="/projects/motoEcomFront">
+              <Image
+                src="/static/screenshots/moto-ecom-mobile-front/1.png"
+                alt=""
+                width={200}
+                height={200}
+                className="object-contain mx-auto"
               />
             </Link>
           </div>
