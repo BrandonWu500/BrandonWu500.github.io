@@ -1,5 +1,5 @@
-import ProjectWrapper from '@/components/ProjectWrapper';
-import Link from 'next/link';
+import ProjectWrapper from "@/components/ProjectWrapper";
+import Link from "next/link";
 
 const foodDeliveryFront = () => {
   return (
@@ -21,7 +21,7 @@ const foodDeliveryFront = () => {
           </a>
         </div>
 
-        <p>Below is a video walkthrough of the app's functionality:</p>
+        <p className="font-semibold mt-5">Walkthrough Video:</p>
         <iframe
           height="315"
           src="https://www.youtube.com/embed/K0YgmeKF9-o"

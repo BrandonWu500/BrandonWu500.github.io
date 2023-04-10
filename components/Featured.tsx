@@ -44,8 +44,8 @@ const Featured = () => {
 
         <p className="font-semibold mt-5">Screenshots:</p>
         <ul className="grid grid-cols-2 gap-5">
-          {SCREENSHOTS.map((screenshot) => (
-            <li>
+          {SCREENSHOTS.map((screenshot, idx) => (
+            <li key={idx}>
               <Image
                 src={screenshot}
                 alt=""

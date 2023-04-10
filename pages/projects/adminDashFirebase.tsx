@@ -1,4 +1,4 @@
-import ProjectWrapper from '@/components/ProjectWrapper';
+import ProjectWrapper from "@/components/ProjectWrapper";
 
 const adminDashFirebase = () => {
   return (
@@ -18,7 +18,7 @@ const adminDashFirebase = () => {
           </a>
         </div>
 
-        <p>Below is a video walkthrough of the app's functionality:</p>
+        <p className="font-semibold mt-5">Walkthrough Video:</p>
         <iframe
           height="315"
           src="https://www.youtube.com/embed/-oSz-sxYN6A"

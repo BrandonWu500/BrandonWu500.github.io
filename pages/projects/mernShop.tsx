@@ -1,5 +1,5 @@
-import ProjectWrapper from '@/components/ProjectWrapper';
-import Image from 'next/image';
+import ProjectWrapper from "@/components/ProjectWrapper";
+import Image from "next/image";
 
 const MernShop = () => {
   return (
@@ -23,7 +23,7 @@ const MernShop = () => {
           </a>
         </div>
 
-        <p>Below is a video walkthrough of the app's functionality:</p>
+        <p className="font-semibold mt-5">Walkthrough Video:</p>
         <iframe
           height="315"
           src="https://www.youtube-nocookie.com/embed/pbEavbJXqs8"

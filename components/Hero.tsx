@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import Typewriter from 'typewriter-effect';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import { useEffect, useState } from 'react';
+import Image from "next/image";
+import Typewriter from "typewriter-effect";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { useEffect, useState } from "react";
 
 type HeroProps = {
   setBtnScrollDown: any;
@@ -41,15 +41,16 @@ const Hero = ({ setBtnScrollDown }: HeroProps) => {
             <Typewriter
               options={{
                 strings: [
-                  'Frontend Web',
-                  'React',
-                  'Next.js',
-                  'UI/UX',
-                  'MERN Stack',
+                  "Frontend",
+                  "React",
+                  "React Native",
+                  "Next.js",
+                  "UI/UX",
+                  "MERN Stack",
                 ],
                 autoStart: true,
                 loop: true,
-                cursor: '',
+                cursor: "",
               }}
             />
           </span>

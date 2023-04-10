@@ -1,7 +1,7 @@
-import axios from 'axios';
-import { FormEvent, useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import axios from "axios";
+import { FormEvent, useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 const ContactForm = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -32,11 +32,11 @@ const ContactForm = () => {
       return;
     }
 
-    const result = await axios.post('/api/contact', {
+    const result = await axios.post("/api/contact", {
       token,
     });
 
-    if (result.data.status !== 'Success') {
+    if (result.data.status !== "Success") {
       return;
     }
 
@@ -104,7 +104,7 @@ const ContactForm = () => {
           data-action="submit"
           disabled={isSending}
         >
-          {isSending ? 'Sending...' : 'Send'}
+          {isSending ? "Sending..." : "Send"}
         </button>
         {isSuccess && (
           <p className="text-green-600 text-lg font-semibold mt-2">{`Your message has been sent. I'll get back to you soon :)`}</p>

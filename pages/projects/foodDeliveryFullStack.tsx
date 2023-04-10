@@ -1,6 +1,6 @@
-import ProjectWrapper from '@/components/ProjectWrapper';
-import Image from 'next/image';
-import Link from 'next/link';
+import ProjectWrapper from "@/components/ProjectWrapper";
+import Image from "next/image";
+import Link from "next/link";
 
 const FoodDeliveryFullStack = () => {
   return (
@@ -29,7 +29,7 @@ const FoodDeliveryFullStack = () => {
             https://github.com/BrandonWu500/food-delivery-app
           </a>
         </div>
-        <p>Below is a video walkthrough of the app's functionality:</p>
+        <p className="font-semibold mt-5">Walkthrough Video:</p>
         <iframe
           height="315"
           src="https://www.youtube.com/embed/Gt2OOgQCIYQ"

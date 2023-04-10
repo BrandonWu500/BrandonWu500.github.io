@@ -1,5 +1,5 @@
-import ProjectWrapper from '@/components/ProjectWrapper';
-import Image from 'next/image';
+import ProjectWrapper from "@/components/ProjectWrapper";
+import Image from "next/image";
 
 const CarAuctionFront = () => {
   return (
@@ -25,7 +25,7 @@ const CarAuctionFront = () => {
             https://github.com/BrandonWu500/car-auction
           </a>
         </div>
-        <p>Walkthrough Video:</p>
+        <p className="font-semibold mt-5">Walkthrough Video:</p>
         <iframe
           height="315"
           src="https://www.youtube.com/embed/dc09aMJr49Y"

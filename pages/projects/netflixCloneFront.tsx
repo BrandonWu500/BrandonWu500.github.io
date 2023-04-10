@@ -1,5 +1,5 @@
-import ProjectWrapper from '@/components/ProjectWrapper';
-import Image from 'next/image';
+import ProjectWrapper from "@/components/ProjectWrapper";
+import Image from "next/image";
 
 const NetflixCloneFront = () => {
   return (
@@ -28,7 +28,7 @@ const NetflixCloneFront = () => {
           </a>
         </div>
 
-        <h4 className="font-semibold text-md">Video Walkthrough:</h4>
+        <p className="font-semibold mt-5">Walkthrough Video:</p>
         <iframe
           height="315"
           src="https://www.youtube.com/embed/Opl0oe4AxpA"
