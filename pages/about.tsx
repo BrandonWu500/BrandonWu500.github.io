@@ -33,7 +33,7 @@ const about = () => {
           and documentation, along with watching YouTube tutorials.`}
         </p>
         <p>
-          {`I have experience with modern React.js (using hooks) and many of its associated libraries including React Router and Redux Toolkit. I also have worked with Next.js and TypeScript. Additionally, I have experience with REST APIs, and using axios or RTK Queries to interact with them.`}
+          {`I have experience with modern React.js (using hooks) and many of its associated libraries including React Router and Redux Toolkit. I also have worked with Next.js and TypeScript. Additionally, I have experience with REST APIs, and using axios or RTK Queries to interact with them. I also have experience with user authentication and authorization using JWT (JSON Web Token).`}
         </p>
         <p>
           For styling, I have experience with CSS, Sass, React Native Styles,
