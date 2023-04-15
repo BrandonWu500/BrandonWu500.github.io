@@ -11,7 +11,7 @@ const enum Sorts {
 }
 
 const Projects = () => {
-  const [sortType, setSortType] = useLocalStorage("sort", Sorts.NEWEST);
+  const [sortType, setSortType] = useLocalStorage("sortProjects", Sorts.NEWEST);
   const [projectsList, setProjectsList] = useState(projectsInfo);
 
   const sortProjects = (sortIdx: Sorts) => {

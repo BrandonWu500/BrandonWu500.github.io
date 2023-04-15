@@ -17,7 +17,7 @@ const about = () => {
           <ul className="list-disc pl-5">
             <li>{`Full Stack (MERN) Shopping/E-Commerce Website`}</li>
             <li>{`Full Stack (Next.js with MongoDB) Food Delivery Website`}</li>
-            <li>{`Frontend of Motorcycle E-Commerce Mobile App with React Native (Expo)`}</li>
+            <li>{`Full Stack (MERN) Motorcycle E-Commerce Mobile App with React Native (using Expo)`}</li>
             <li>Frontend of Car Auction Website with React and Three.js</li>
             <li>Frontend of Netflix Clone with Next.js</li>
             <li>{`Full Stack (React and Google Firebase) Admin Dashboard`}</li>
