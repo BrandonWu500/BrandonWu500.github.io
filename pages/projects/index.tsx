@@ -130,17 +130,31 @@ const Projects = () => {
           </div>
         </li>
         <li>
-          <div className="font-semibold text-lg grid grid-cols-2 items-center gap-5">
-            <Link href="/projects/motoEcomFront" className="font-bold">
-              <div>
-                <p>Motorcycle E-Commerce</p>
-                <p>Mobile Frontend</p>
-                <p>with React Native</p>
-              </div>
-            </Link>
+          <div className="font-medium text-lg grid grid-cols-2 items-center gap-5">
+            <div className="-translate-y-2">
+              <Link href="/projects/motoEcomFront" className="font-bold">
+                <div>
+                  <p>Motorcycle E-Commerce</p>
+                  <p>Mobile App</p>
+                  <p>with React Native</p>
+                </div>
+              </Link>
+              <ol className="list-decimal pl-5 space-y-4 mt-2 text-start">
+                <li>
+                  <Link href="/projects/motoEcomFront" className="text-lg">
+                    Frontend only
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/projects/motoEcomFull" className="text-lg">
+                    {`Full Stack (MERN)`}
+                  </Link>
+                </li>
+              </ol>
+            </div>
             <Link href="/projects/motoEcomFront">
               <Image
-                src="/static/screenshots/moto-ecom-mobile-front/1.png"
+                src="/static/screenshots/moto-ecom-full/1.png"
                 alt=""
                 width={200}
                 height={200}

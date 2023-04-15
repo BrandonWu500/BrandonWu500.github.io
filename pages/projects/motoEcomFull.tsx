@@ -1,7 +1,6 @@
 import ProjectWrapper from "@/components/ProjectWrapper";
-import { SCREENSHOTS } from "@/data/motoEcomFront";
+import { SCREENSHOTS } from "@/data/motoEcomFull";
 import Image from "next/image";
-import Link from "next/link";
 
 const MotoEcomFront = () => {
   return (
@@ -11,11 +10,12 @@ const MotoEcomFront = () => {
         className="mx-auto flex flex-col gap-4 leading-8"
       >
         <h3 className="font-bold text-xl mb-2 flex flex-col">
-          <span>Motorcycle E-Commerce Mobile Frontend</span>
+          <span>{`Full Stack (MERN)`}</span>
+          <span>Motorcycle E-Commerce Mobile App</span>
           <span>with React Native</span>
         </h3>
         <Image
-          src="/static/screenshots/moto-ecom-mobile-front/1.png"
+          src="/static/screenshots/moto-ecom-full/1.png"
           alt=""
           width={200}
           height={200}
@@ -29,16 +29,16 @@ const MotoEcomFront = () => {
           <div className="flex flex-col gap-1">
             <h4 className="font-semibold text-md">Github Repo Link:</h4>
             <a
-              href="https://github.com/BrandonWu500/motorcycle-ecommerce-mobile-app/tree/frontend-only"
+              href="https://github.com/BrandonWu500/motorcycle-ecommerce-mobile-app"
               target="_blank"
             >
-              https://github.com/BrandonWu500/motorcycle-ecommerce-mobile-app/tree/frontend-only
+              https://github.com/BrandonWu500/motorcycle-ecommerce-mobile-app
             </a>
           </div>
           <p className="font-semibold mt-5">Walkthrough Video:</p>
           <iframe
             height="315"
-            src="https://www.youtube.com/embed/SNgQa6cNuF0"
+            src="https://www.youtube.com/embed/B2B-jukNSm4"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -71,6 +71,11 @@ const MotoEcomFront = () => {
               <li>React Native Styles</li>
               <li>Redux Toolkit</li>
               <li>{`Custom Selectors (with Redux Toolkit)`}</li>
+              <li>Stripe</li>
+              <li>MERN Stack</li>
+              <li>RTK Query</li>
+              <li>Custom Hooks</li>
+              <li>Debounce</li>
             </ul>
           </div>
           <div>
@@ -80,23 +85,13 @@ const MotoEcomFront = () => {
               <li>{`Product Details Screen/Modal with horizontal image carousel`}</li>
               <li>Cart Screen with Order Summary fixed to bottom of screen</li>
               <li>Ability to add and remove products from cart</li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-semibold mt-8 text-lg">Future Improvements:</h4>
-            <ul className="capitalize list-disc pl-5">
-              <li>Add backend and integrate</li>
-              <li>Use RTK Queries to fetch data</li>
-              <li>Add toast letting user know they added item to cart</li>
+              <li>Checkout with Stripe</li>
+              <li>Order Tracking</li>
+              <li>Alerts for adding to cart and creating order</li>
             </ul>
           </div>
         </section>
       </section>
-      <Link href="/projects/motoEcomFull">
-        <button className="capitalize bg-slate-800 text-white p-5 mt-10 block mx-auto rounded hover:bg-slate-700">
-          Learn about how I turned this into a full stack app
-        </button>
-      </Link>
     </ProjectWrapper>
   );
 };
