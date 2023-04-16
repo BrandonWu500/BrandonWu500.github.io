@@ -25,11 +25,11 @@ export const projectsInfo = [
     id: 3,
     title: ["Food Delivery App", "with Next.js"],
     img: "/static/screenshots/food-delivery-fullstack/landing-page-screenshot.png",
-    link: "/projects/motoEcomFront",
+    link: "/projects/foodDeliveryFront",
     sections: [
       {
         title: "Frontend only",
-        link: "/projects/motoEcomFront",
+        link: "/projects/foodDeliveryFront",
       },
       {
         title: "Full Stack with MongoDB",
