@@ -28,12 +28,24 @@ const MotoEcomFront = () => {
         >
           <div className="flex flex-col gap-1">
             <h4 className="font-semibold text-md">Github Repo Link:</h4>
-            <a
-              href="https://github.com/BrandonWu500/motorcycle-ecommerce-mobile-app"
-              target="_blank"
-            >
-              https://github.com/BrandonWu500/motorcycle-ecommerce-mobile-app
-            </a>
+            <p>
+              <span className="font-medium">Frontend: </span>
+              <a
+                href="https://github.com/BrandonWu500/motorcycle-ecommerce-mobile-app"
+                target="_blank"
+              >
+                https://github.com/BrandonWu500/motorcycle-ecommerce-mobile-app
+              </a>
+            </p>
+            <p>
+              <span className="font-medium">Backend: </span>
+              <a
+                href="https://github.com/BrandonWu500/motorcycle-ecommerce-api"
+                target="_blank"
+              >
+                https://github.com/BrandonWu500/motorcycle-ecommerce-api
+              </a>
+            </p>
           </div>
           <p className="font-semibold mt-5">Walkthrough Video:</p>
           <iframe
