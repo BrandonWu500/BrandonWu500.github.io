@@ -7,14 +7,15 @@ const about = () => {
         </h2>
         <p>{`Hi, I'm Brandon!`}</p>
         <p>
-          {`Right now, I am actively looking for a job as a Frontend or UI Developer with a focus on React and/or React Native along with CSS/styling. I can work 100% remote or relocate, anywhere in the US, to the on-site location.`}
+          {`Right now, I am actively looking for a job as a Frontend or UI/UX Developer with a focus on React/Next.js/React Native along with CSS/styling and design. I can work 100% remote or relocate, anywhere in the US, to the on-site location.`}
         </p>
         <p>
-          {`My ideal job would be converting UI mockups (from something like Figma) into frontends for websites and/or mobile apps. I would prefer to work with React, Next.js, or React Native, along with doing some styling. I also have some experience with full stack development using the MERN Stack.`}
+          {`My ideal job would be going from user stories to design (using Figma) to coding frontends/prototypes for websites and/or mobile apps. I also have some experience with full stack development using the MERN Stack.`}
         </p>
         <div>
           <p>Some of my past projects include:</p>
           <ul className="list-disc pl-5">
+            <li>Tesla Clone Design with Figma</li>
             <li>{`Full Stack (MERN) Shopping/E-Commerce Website`}</li>
             <li>{`Full Stack (Next.js with MongoDB) Food Delivery Website`}</li>
             <li>{`Full Stack (MERN) Motorcycle E-Commerce Mobile App with React Native (using Expo)`}</li>
@@ -41,7 +42,7 @@ const about = () => {
           Design.
         </p>
         <p>
-          {`Currently, I am learning React Native (with Expo) and building frontends for mobile apps. It's pretty similar to web development with React, and the code works for both iOS and Android, which is great!`}
+          {`Currently, I am learning and gaining more experience with React Native (using Expo) and Figma.`}
         </p>
         <p>
           <span>Link to my GitHub: </span>
