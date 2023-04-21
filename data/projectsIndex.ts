@@ -66,4 +66,10 @@ export const projectsInfo = [
       },
     ],
   },
+  {
+    id: 7,
+    title: ["Tesla Clone Design", "with Figma"],
+    img: "/static/screenshots/tesla-clone-design/1.png",
+    link: "/projects/teslaCloneDesign",
+  },
 ];
