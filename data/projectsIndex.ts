@@ -72,4 +72,10 @@ export const projectsInfo = [
     img: "/static/screenshots/tesla-clone-design/1.png",
     link: "/projects/teslaCloneDesign",
   },
+  {
+    id: 8,
+    title: ["Gym Design", "with Figma"],
+    img: "/static/screenshots/gym-design/1.png",
+    link: "/projects/gymDesign",
+  },
 ];
