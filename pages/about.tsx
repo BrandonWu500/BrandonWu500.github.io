@@ -7,10 +7,10 @@ const about = () => {
         </h2>
         <p>{`Hi, I'm Brandon!`}</p>
         <p>
-          {`Right now, I am actively looking for a job as a Frontend or UI/UX Developer with a focus on React/Next.js/React Native along with CSS/styling and design. I can work 100% remote or relocate, anywhere in the US, to the on-site location.`}
+          {`Right now, I am actively looking for jobs as a Frontend or UI/UX Developer with a focus on React/Next.js/React Native along with CSS/styling and design. I can work 100% remote or relocate, anywhere in the US, to the on-site location.`}
         </p>
         <p>
-          {`My ideal job would be going from user stories to design (using Figma) to coding frontends/prototypes for websites and/or mobile apps. I also have some experience with full stack development using the MERN Stack.`}
+          {`My ideal job would be going from user stories to design (using Figma) to coding frontends/prototypes for websites and/or mobile apps. I also have experience with full stack development using the MERN Stack.`}
         </p>
         <div>
           <p>Some of my past projects include:</p>
