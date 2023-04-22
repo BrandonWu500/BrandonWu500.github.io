@@ -7,7 +7,7 @@ const Featured = () => {
   return (
     <ProjectWrapper>
       <div className="mx-auto text-center pb-10">
-        <h2 className="text-5xl">Latest Project</h2>
+        <h2 className="text-5xl mb-10">Featured Project</h2>
         <p className="text-3xl my-5">{`Full Stack (MERN)`}</p>
         <p className="text-3xl my-5">Motorcycle E-Commerce</p>
         <p className="text-3xl my-5">Mobile App with React Native</p>
@@ -16,7 +16,7 @@ const Featured = () => {
           alt=""
           width={200}
           height={200}
-          className="object-contain mx-auto"
+          className="object-contain mx-auto mt-10"
         />
       </div>
       <section
