@@ -74,7 +74,7 @@ export const projectsInfo = [
   },
   {
     id: 8,
-    title: ["Gym Design", "with Figma"],
+    title: ["Gym Website Design", "with Figma"],
     img: "/static/screenshots/gym-design/1.png",
     link: "/projects/gymDesign",
   },

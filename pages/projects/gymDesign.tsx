@@ -9,7 +9,9 @@ const GymDesign = () => {
         className="
   mx-auto flex flex-col gap-4 leading-8"
       >
-        <h3 className="font-bold text-xl mb-2">Gym Design with Figma</h3>
+        <h3 className="font-bold text-xl mb-2">
+          Gym Website Design with Figma
+        </h3>
         <Image
           src="/static/screenshots/gym-design/1.png"
           alt=""
