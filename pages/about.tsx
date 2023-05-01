@@ -23,7 +23,7 @@ const about = () => {
         </div>
         <div>
           <h4>Code:</h4>
-          <p>{`React, Next.js, React Native, MERN Stack, Redux (RTK)`}</p>
+          <p>{`React, Next.js, React Native, MERN Stack, Redux (RTK), JavaScript, TypeScript, REST APIs`}</p>
         </div>
         <div>
           <h4>Testing:</h4>
