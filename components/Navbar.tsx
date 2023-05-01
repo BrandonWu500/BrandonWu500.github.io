@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import { useState } from 'react';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import LightModeIcon from '@mui/icons-material/LightMode';
+import Link from "next/link";
+import { useState } from "react";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import LightModeIcon from "@mui/icons-material/LightMode";
 
 type NavbarProps = {
   darkMode: boolean | null;
@@ -12,7 +12,7 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
   const [navMenuOpen, setNavMenuOpen] = useState(false);
   const handleDarkModeToggle = () => {
     setDarkMode(!darkMode);
-    localStorage.setItem('darkMode', JSON.stringify(!darkMode));
+    localStorage.setItem("darkMode", JSON.stringify(!darkMode));
   };
   return (
     <nav className="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
@@ -34,9 +34,6 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
           </li>
           <li className="hover:text-gray-400">
             <Link href="/contact">contact</Link>
-          </li>
-          <li className="hover:text-gray-400">
-            <Link href="/testimonials">testimonials</Link>
           </li>
         </ul>
         <button
@@ -68,8 +65,8 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
           id="menu"
           className={
             navMenuOpen
-              ? 'transition-transform duration-500 absolute left-0 top-0 w-full p-10 rounded-b-3xl uppercase space-y-10 bg-white dark:bg-slate-900 dark:text-gray-200 text-center'
-              : '-translate-y-full transition-transform duration-500 absolute left-0 top-0 w-full p-10 rounded-b-3xl uppercase space-y-10 bg-white dark:bg-slate-900 dark:text-gray-200 text-center'
+              ? "transition-transform duration-500 absolute left-0 top-0 w-full p-10 rounded-b-3xl uppercase space-y-10 bg-white dark:bg-slate-900 dark:text-gray-200 text-center"
+              : "-translate-y-full transition-transform duration-500 absolute left-0 top-0 w-full p-10 rounded-b-3xl uppercase space-y-10 bg-white dark:bg-slate-900 dark:text-gray-200 text-center"
           }
         >
           <li>
@@ -106,15 +103,6 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
               onClick={() => setNavMenuOpen(false)}
             >
               contact
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="hLink"
-              href="/testimonials"
-              onClick={() => setNavMenuOpen(false)}
-            >
-              testimonials
             </Link>
           </li>
         </ul>
