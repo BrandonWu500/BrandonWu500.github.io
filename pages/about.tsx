@@ -27,11 +27,11 @@ const about = () => {
         </div>
         <div>
           <h4>Testing:</h4>
-          <p>{`React Testing Library, Jest, TDD (Test-Driven Development)`}</p>
+          <p>{`React Testing Library, Jest, Mock Service Worker, TDD (Test-Driven Development)`}</p>
         </div>
         <div>
           <h4>SDLC:</h4>
-          <p>Agile, Scrum, Kanban, Jira, git, GitHub</p>
+          <p>Agile, Scrum, Kanban, Jira, Confluence, Git, GitHub</p>
         </div>
         <div>
           <h3>Past Projects:</h3>
